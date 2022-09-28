@@ -1,3 +1,5 @@
+# The script with the function to check the numbers for being a palindrom or not
+# Source https://www.mygreatlearning.com/blog/palindrome-in-python/
 def palindrom(num):
     temp = num
     revNum = 0
