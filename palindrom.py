@@ -1,2 +1,11 @@
-def palindrom(number):
-    pass
+def palindrom(num):
+    temp = num
+    revNum = 0
+    while num > 0:
+        digit = num % 10
+        revNum = revNum * 10 + digit
+        num = num // 10
+    if temp == revNum:
+        print("Gegebene Zahl ist ein Palindrom ")
+    elif temp != revNum:
+        print("Gegebene Zahl ist kein Palindrom ")

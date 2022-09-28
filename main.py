@@ -10,6 +10,9 @@ zahlen_liste = list()
 while len(zahlen_liste) < 5:
     num = input("Bitte geben sie eine Zahl ein: ")
     if num.isdigit():
-        zahlen_liste.append(num)
+        zahlen_liste.append(int(num))
     elif not num.isdigit():
         print("Falsche Eingabe!")
+
+for i in range(len(zahlen_liste)):
+    palindrom.palindrom(zahlen_liste[i])
