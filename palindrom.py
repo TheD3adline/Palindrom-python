@@ -1,0 +1,2 @@
+def palindrom(number):
+    pass
